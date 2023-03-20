@@ -1,3 +1,6 @@
+import React from 'react'
+import logo from './images/logo.svg';
+import main from './images/main.jpg';
 function App() {
 
   return (
@@ -6,7 +9,7 @@ function App() {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src="./images/logo.saving" className="nav-logo" alt="backroads" />
+          <img src={logo} className="nav-logo" alt="backroads" />
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>
