@@ -1,17 +1,26 @@
 import React from 'react'
-
-const Service = (props) => {
-    const {icon ,title , slogan } = props
+import { services } from '../data'
+const Service = () => {
+    // const {icon ,title , slogan } = props
+    
   return (
-    <article className="service">
-          <span className="service-icon"><i className={icon} ></i></span>
-          <div className="service-info">
-            <h4 className="service-title">{title}</h4>
-            <p className="service-text">
-              {slogan}
-            </p>
-          </div>
-        </article>
+    <div className="section-center services-center">
+        {services.map((service)=>{
+          const {id , icon , title , slogan} = service;
+          return (
+            <article className="service">
+            <span className="service-icon"><i className={icon} ></i></span>
+            <div className="service-info">
+              <h4 className="service-title">{title}</h4>
+              <p className="service-text">
+                {slogan}
+              </p>
+            </div>
+          </article>
+          );
+        })}
+      </div>
+    
   )
 }
 
