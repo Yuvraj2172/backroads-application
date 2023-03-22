@@ -1,3 +1,7 @@
+import tour1 from './images/tour-1.jpg';
+import tour2 from './images/tour-2.jpg';
+import tour3 from './images/tour-3.jpg';
+import tour4 from './images/tour-4.jpg';
 const pageLinks = [
   { id: 1, href: "#home", text: "home" },
   { id: 2, href: "#about", text: "about" },
@@ -50,4 +54,53 @@ const services = [
   },
 ];
 
-export { socialLinks, pageLinks, services };
+export { socialLinks, pageLinks };
+export { services };
+
+const tour = [
+  {
+    id: 1,
+    image: tour1,
+    date: "august 26th, 2020",
+    title: "tibet adventure",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    icon: "fas fa-map",
+    country : "china",
+    duration: "6 days",
+    expense: "from $2100",
+  },
+  {
+    id: 2,
+    image: tour2,
+    date: "august 26th, 2020",
+    title: "tibet adventure",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    icon: "fas fa-map",
+    country : "china",
+    duration: "6 days",
+    expense: "from $2100",
+  },
+  {
+    id: 3,
+    image: tour3,
+    date: "august 26th, 2020",
+    title: "tibet adventure",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    icon: "fas fa-map",
+    country : "china",
+    duration: "6 days",
+    expense: "from $2100",
+  },
+  {
+    id: 4,
+    image: tour4,
+    date: "august 26th, 2020",
+    title: "tibet adventure",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    icon: "fas fa-map",
+    country : "china",
+    duration: "6 days",
+    expense: "from $2100",
+  },
+];
+export { tour };
