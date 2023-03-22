@@ -9,6 +9,7 @@ const pageLinks = [
   { id: 4, href: "#tours", text: "tours" },
   { id: 5, href: "#products", text: "products" },
 ];
+export {pageLinks};
 const socialLinks = [
   {
     id: 1,
@@ -29,8 +30,8 @@ const socialLinks = [
     target: "_blank",
   },
 ];
-
-const services = [
+export {socialLinks};
+export const services = [
   {
     id: 1,
     icon: "fas fa-wallet fa-fw",
@@ -54,8 +55,8 @@ const services = [
   },
 ];
 
-export { socialLinks, pageLinks };
-export { services };
+
+// export { services };
 
 const tour = [
   {
